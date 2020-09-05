@@ -180,7 +180,7 @@
 }
 
 
-@media screen and (max-width:680px){
+@media screen and (max-width:420px){
     .grid-container{
         height: 70vh;
         display: grid;
@@ -189,62 +189,69 @@
         position: relative;
     }
 
-
     .side-1 h3{
         float: left;
         text-transform: capitalize;
         font-weight: bold;
-        font-size: 25px;
-        margin-top: 10px;
+        font-size: 19px;
+        margin-top: 11px;
+        margin-left: 10px;
     }
 
     .side-2 a{
-        margin-left: 15px;
+        display: ;
+    
+        margin-top: 19px;
+        margin-left:8px;
         text-decoration: none;
         text-transform: capitalize;
-        letter-spacing: 1px;
-        font-size: 17px;
+        font-size: 13px;
+        
     }
     
+    .side-2 a span{
+        color: red;
+        font-size: 13px;
+    }
     
     .side-3{
         width: 60%;
-        margin-left: 100px;
+        margin-left: 20%;
         text-align: center;
         display: inline-block;
         position: absolute;
-        top: 160px;
+        top: 140px;
     }
 
     .side-3 h3{
         text-transform: capitalize;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .side-3 h1{
         text-transform: capitalize;
-        font-size: 50px;
+        font-size: 30px;
         letter-spacing: 2px;
     }
     
     .side-3 span{
         top: 20px;
-        line-height: 1.5;
+        line-height: 1.0;
         text-transform: lowercase;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .btn{
         
         text-decoration: none;
         text-transform: capitalize;
-        font-size: 15px;
-        height: 40px;
+        font-size: 13px;
+        height: 30px;
         width: 20%;
         background-color: red;
         position: absolute;
-        padding: 10px 10px;
-        margin-top: 68%;
+        padding: 5px 5px;
+        margin-top: 70%;
         margin-left: 40%;
     }
 
@@ -260,15 +267,20 @@
     }
 
     .down{
-        width: 70%;
+        width: 60%;
         height: 30vh;
-        margin: 20px 90px;
+        margin: 10px 50px;
     }
 
     .down h1{
         text-transform: capitalize;
         font-size: 30px;
-        line-height:2.5;
+        line-height: 1.5;
+    }
+
+    .down span{
+        text-transform: lowercase;
+        font-size: 15px;
     }
     
 
@@ -278,13 +290,14 @@
         justify-content: center;
         align-items: center;
         grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 20px;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
         
     }
 
     .grid{
     
-        height: 55vh;
+        height: 50vh;
         width: 100% ;
         background: whitesmoke;
         box-shadow: 0px 20px 20px rgba(104, 104, 104, 0.8);
