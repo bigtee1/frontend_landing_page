@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(../images/img2.jfif);
+    background-size: cover;
+    background-position:  center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.signup{
+    width: 360px;
+    height: 520px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: rgb(29, 28, 28, 0.6);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.signup p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.signup input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.signup input[type="text"], input[type="email"], input[type="password"]
+{
+    border: none;
+    outline: none;
+    background: lightgray;
+    color: black;
+    height: 40px;
+}
+.signup input[type="button"]
+{
+    height: 40px;
+    outline: none;
+    border: none;
+    background: lightgray;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.signup input[type="button"]:hover
+{
+    background: lightsteelblue;
+}
